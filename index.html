@@ -3,23 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Exemple fictif de CV de Melahel LABITE">
+  <meta name="description" content="CV de Melahel LABITE, développeur web junior à Cotonou.">
   <title>CV - Melahel LABITE</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>Melahel LABITE</h1>
     <p><strong>Développeur web junior</strong></p>
     <p>
-      <a href="mailto:labitemelahel@gmail.com"> labitemelahel@gmail.com </a>
-      · +229 01 69 38 38 40 
+      <a href="mailto:labitemelahel@gmail.com">labitemelahel@gmail.com</a>
+      · +229 01 69 38 38 40
       · Cotonou, Bénin
     </p>
   </header>
 
   <main>
-    <p>Contenu principal de la page.</p>
-     <section aria="formations">
+    <section aria-labelledby="description">
+      <h2 id="description">Courte description</h2>
+      <p>
+        Développeur web junior, je m’intéresse à la création de sites accessibles
+        et adaptés aux mobiles. Curieux et organisé, j’aime apprendre de nouvelles
+        technologies et travailler en équipe sur des projets utiles.
+      </p>
+    </section>
+
+    <section aria-labelledby="formations">
       <h2 id="formations">Formations</h2>
       <article>
         <h3>Licence en informatique de gestion</h3>
@@ -34,11 +43,55 @@
       </article>
     </section>
 
+    <section aria-labelledby="experiences">
+      <h2 id="experiences">Expériences</h2>
+      <article>
+        <h3>Stagiaire développeur web</h3>
+        <p><strong>Atelier Numérique — entreprise fictive</strong> — Cotonou, Bénin</p>
+        <p><time datetime="2024-02">Février 2024</time> – <time datetime="2024-07">Juillet 2024</time></p>
+        <ul>
+          <li>Intégration de pages web adaptatives à partir de maquettes.</li>
+          <li>Amélioration de la navigation et correction de problèmes d’affichage sur mobile.</li>
+          <li>Collaboration avec l’équipe pour suivre les tâches et relire le code.</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Assistant informatique (stage)</h3>
+        <p><strong>Centre fictif d’appui scolaire</strong> — Cotonou, Bénin</p>
+        <p><time datetime="2023-06">Juin 2023</time> – <time datetime="2023-08">Août 2023</time></p>
+        <ul>
+          <li>Aide à la mise à jour du site et au classement des ressources numériques.</li>
+          <li>Accompagnement des utilisateurs dans la prise en main des outils bureautiques.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section aria-labelledby="competences">
+      <h2 id="competences">Compétences</h2>
+      <ul>
+        <li>HTML et CSS : bases solides, mise en page adaptative et accessibilité</li>
+        <li>JavaScript : bases en manipulation du DOM</li>
+        <li>Outils : Git, Figma et Visual Studio Code</li>
+        <li>Français : courant ; anglais : intermédiaire</li>
+        <li>Qualités : esprit d’équipe, organisation et curiosité</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="associations">
+      <h2 id="associations">Associations</h2>
+      <article>
+        <h3>Les Éclaireurs du Numérique — association fictive</h3>
+        <p><strong>Bénévole, ateliers d’initiation au numérique</strong> — depuis 2023</p>
+        <p>
+          Participation à des ateliers de découverte du web et accompagnement
+          de jeunes dans leurs premiers projets numériques.
+        </p>
+      </article>
+    </section>
   </main>
 
   <footer>
-    <p>CV de Melahel LABITE </p>
-    <p><a href="mailto:labitemelahel@gmail.com">labitemelahel@gmail.com</a></p>
+    <p>CV de Melahel LABITE</p>
   </footer>
 </body>
 </html>
